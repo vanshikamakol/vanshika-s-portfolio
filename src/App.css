@@ -76,7 +76,7 @@ section {
 }
 
 .home-section {
-  background-image: url('c:\Users\VANSHIKA\Downloads\computer.jpg'); /* Add your image URL here */
+  background-image: url('./assets/computer.jpg'); /* Add your image URL here */
   background-size: cover;
   background-position: center;
   height: 100vh; /* Full screen height */
