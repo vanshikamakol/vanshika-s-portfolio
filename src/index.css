@@ -1,0 +1,33 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+#about p {
+  font-size: 1.1em;
+  line-height: 1.6;
+}
+
+#about strong {
+  font-weight: bold;
+  color: #3498db; /* Optional - Set the color for the labels like "Contact Number" and "Email" */
+}
+
+#about a {
+  color: #2ecc71;
+  text-decoration: none;
+}
+
+#about a:hover {
+  text-decoration: underline;
+}
+

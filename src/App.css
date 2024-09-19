@@ -1,0 +1,234 @@
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: 'Poppins', sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #1b1b1b;
+}
+h1, h2, h3 {
+  color: #ff6f61; /* Accent color for headings */
+}
+p, li {
+  color: #e0e0e0; /* Slightly lighter text for body */
+}
+a {
+  color: #ff6f61;
+  text-decoration: none;
+}
+
+a:hover {
+  color: #ffa07a; /* Hover effect on links */
+}
+nav {
+  background-color: #252525;
+  position: fixed;
+  width: 100%;
+  top: 0;
+  z-index: 10;
+}
+
+nav ul {
+  display: flex;
+  justify-content: space-around;
+  list-style: none;
+}
+
+nav ul li a {
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+nav ul li a:hover {
+  color: #ff6f61;
+}
+
+section {
+  padding: 80px 20px;
+  text-align: center;
+}
+
+#projects {
+  background-color: #2d2d2d;
+  padding: 50px 20px;
+}
+
+.project-card {
+  background-color: #333;
+  border: 1px solid #444;
+  border-radius: 10px;
+  padding: 20px;
+  margin: 10px;
+  transition: transform 0.3s ease;
+}
+
+.project-card:hover {
+  transform: translateY(-5px);
+  background-color: #444;
+}
+
+/* Skills Section */
+#skills {
+  background-color: #252525;
+}
+
+.home-section {
+  background-image: url('c:\Users\VANSHIKA\Downloads\computer.jpg'); /* Add your image URL here */
+  background-size: cover;
+  background-position: center;
+  height: 100vh; /* Full screen height */
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.8);
+}
+
+.home-section h1 {
+  font-size: 4rem;
+}
+
+.home-section p {
+  font-size: 1.5rem;
+  margin-top: 10px;
+}
+
+.skills-list {
+  list-style: none;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
+.skills-list li {
+  font-size: 1.5rem;
+  background-color: #333;
+  padding: 10px 20px;
+  border-radius: 5px;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.skills-list li i {
+  color: #ff6f61;
+}
+
+button {
+  background-color: #2ecc71;
+  border: none;
+  color: white;
+  padding: 10px 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+button:hover {
+  background-color: #27ae60;
+}
+
+.project-card {
+  border: 1px solid #ddd;
+  padding: 15px;
+  width: 300px;
+  transition: transform 0.3s ease;
+  background-color: #fff;
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+  text-align: center;
+}
+
+.project-image {
+  width: 100%;
+  height: auto;
+  border-radius: 8px;
+  margin-bottom: 15px;
+}
+
+.projects-container {
+  display: flex;
+  justify-content: space-between; /* Spreads the cards evenly */
+  flex-wrap: wrap; /* Wraps cards to a new line if the screen is small */
+  gap: 20px; /* Adds space between the cards */
+  padding: 20px;
+}
+
+.project-card {
+  border: 1px solid #ddd;
+  padding: 15px;
+  width: 30%; /* Each card takes 30% of the container width */
+  transition: transform 0.3s ease;
+  background-color: #fff;
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+  text-align: center;
+}
+
+.project-image {
+  width: 100%;
+  height: auto;
+  border-radius: 8px;
+  margin-bottom: 15px;
+}
+
+@media (max-width: 768px) {
+  .projects-container {
+    flex-direction: column; /* Stacks the cards vertically on smaller screens */
+  }
+  .project-card {
+    width: 100%; /* Make the cards full-width on smaller screens */
+  }
+}
+
+#contact {
+  text-align: center;
+}
+
+#contact h2 {
+  color: #ff6f61;
+  margin-bottom: 20px;
+}
+
+#contact p {
+  font-size: 1.2em;
+  color: white;
+  margin-bottom: 10px;
+}
+
+#contact a {
+  color: #2ecc71;
+  text-decoration: none;
+}
+
+#contact a:hover {
+  text-decoration: underline;
+}
+
+footer {
+  background-color: #333;
+  color: #fff;
+  padding: 20px;
+}
+
+footer a {
+  color: #2ecc71;
+  text-decoration: none;
+}
+
+footer a:hover {
+  text-decoration: underline;
+}
+
+
+
+
+
