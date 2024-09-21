@@ -18,7 +18,7 @@ const Projects = () => {
       description: "An educational platform with diverse courses and services.",
       tech: "HTML, CSS, JavaScript",
       img: iEducateImg, // Add image path
-      link: "https://github.com/your-ieducate-project"
+      link: "https://i-educate-ashy.vercel.app/"
     },
     {
       title: "Bookstore Website",
